@@ -1,0 +1,15 @@
+.page {
+    background-color: grey;
+}
+
+.header {
+    width: 80%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__langmenu {
+    display: flex;
+    justify-content: space-between;
+}
