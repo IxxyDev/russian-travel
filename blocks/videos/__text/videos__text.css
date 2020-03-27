@@ -1,0 +1,26 @@
+.videos__text {
+    color: #fff;
+    padding-left: 30px;
+    z-index: 1;
+    padding-bottom: 30px;
+    text-decoration: none;
+    transition: opacity .5s ease-out;
+  }
+   
+  .videos__text:hover {
+    opacity: .5;
+  }
+   
+  @media screen and (max-width: 900px) {
+    .videos__text{
+      padding-left: 24px;
+      padding-bottom: 24px;
+    }
+  }
+   
+  @media screen and (max-width: 320px) {
+    .videos__text{
+      padding-left: 16px;
+      padding-bottom: 16px;
+    }
+  }

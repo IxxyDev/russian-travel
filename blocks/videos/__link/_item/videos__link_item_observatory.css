@@ -1,0 +1,5 @@
+.videos__link_item_observatory {
+    background-image: url(./observatory-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

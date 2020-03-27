@@ -1,0 +1,18 @@
+.videos__title {
+    max-width: 322px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 39px;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .videos__title {
+    font-size: 24px;
+    line-height: 26px;
+    max-width: 322px;
+    margin-top: 8px;
+  }
+}

@@ -1,0 +1,23 @@
+@import url(./__duration/videos__duration.css);
+@import url(./__icon-play/videos__icon-play.css);
+@import url(./__link/videos__link.css);
+@import url(./__overlay/videos__overlay.css);
+@import url(./__subtitle/videos__subtitle.css);
+@import url(./__title/videos__title.css);
+@import url(./__text/videos__text.css);
+@import url(./__link/_item/videos__link_item_kamchatka.css);
+@import url(./__link/_item/videos__link_item_observatory.css);
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 18px;
+    margin-top: 72px;
+}
+
+@media screen and (max-width: 550px) {
+    .videos {
+      grid-template-columns: 1fr;
+      grid-gap: 8px;
+     }
+  }

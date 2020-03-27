@@ -1,0 +1,10 @@
+.videos__icon-play {
+    max-width: 41px;
+    margin-left: 6%;
+    margin-top: 6%;
+    z-index: 1;
+}
+
+.videos__icon-play:hover {
+    opacity: .7;
+}

@@ -1,0 +1,12 @@
+.comments__author {
+    font-size: 14px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .comments__quote-subline {
+      order: 2;      
+    }
+  }

@@ -1,0 +1,31 @@
+.videos__link {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2%;
+  height: 323px;
+  justify-content: space-between;
+  text-decoration: none;
+  position: relative;
+}
+
+.videos__link:hover {
+    opacity: .7;
+}
+  
+@media screen and (max-width: 1200px) {
+  .videos__link {
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .videos__link{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .videos__link {
+    height: 192px;
+  }
+}
