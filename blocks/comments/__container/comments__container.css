@@ -17,6 +17,7 @@
   .comments__container {
     grid-template-columns: 343px;
     grid-gap: 48px;
+    margin-top: 30px;
   }
 }
   

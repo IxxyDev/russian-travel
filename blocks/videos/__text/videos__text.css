@@ -7,10 +7,6 @@
     transition: opacity .5s ease-out;
   }
    
-  .videos__text:hover {
-    opacity: .5;
-  }
-   
   @media screen and (max-width: 900px) {
     .videos__text{
       padding-left: 24px;

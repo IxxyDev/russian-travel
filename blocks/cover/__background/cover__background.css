@@ -2,18 +2,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
     max-width: 1184px;
     text-decoration: none;
     height: 594px;
     background-size: cover;
     background-position: center;
-    background-image: url(./baikal_by_train.png);
-    position: relative;
+    background-image: url(../../../images/baikal_by_train.png);
     color: white;
-}
-
-.cover__background:hover {
-    opacity: .7;
 }
 
 @media screen and (max-width: 1024px) {

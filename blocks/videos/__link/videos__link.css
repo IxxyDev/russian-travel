@@ -7,10 +7,6 @@
   text-decoration: none;
   position: relative;
 }
-
-.videos__link:hover {
-    opacity: .7;
-}
   
 @media screen and (max-width: 1200px) {
   .videos__link {

@@ -6,13 +6,13 @@
     line-height: 39px;
     color: #fff;
     text-decoration: none;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 900px) {
   .videos__title {
     font-size: 24px;
     line-height: 26px;
-    max-width: 322px;
     margin-top: 8px;
   }
 }

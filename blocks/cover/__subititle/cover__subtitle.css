@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.cover__subtitle:hover {
+  opacity: .7;
+}
+
 @media screen and (max-width: 425px) {
     .cover__subtitle {
       font-size: 14px;
