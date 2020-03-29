@@ -6,6 +6,10 @@
     text-decoration: none;
     transition: opacity .5s ease-out;
   }
+
+.videos__text:hover {
+  opacity: .7;
+}
    
   @media screen and (max-width: 900px) {
     .videos__text{
