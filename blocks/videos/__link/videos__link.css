@@ -7,7 +7,15 @@
   text-decoration: none;
   position: relative;
 }
-  
+
+.videos__link:hover {
+  opacity: .7;
+}
+
+.videos__link:hover ~ .videos__overlay {
+  background-color: rgba(0, 0, 0, .5);
+}
+
 @media screen and (max-width: 1200px) {
   .videos__link {
     height: 288px;

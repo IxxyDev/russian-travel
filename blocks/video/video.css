@@ -3,6 +3,14 @@
     margin: 102px auto 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .video {
+    max-width: 928px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
 @media screen and (max-width: 900px) {
     .video {
       padding: 0 24px;

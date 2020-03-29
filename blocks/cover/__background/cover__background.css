@@ -12,6 +12,14 @@
     color: white;
 }
 
+.cover__background:hover {
+  opacity: .7;
+}
+
+.cover__background:hover ~ .cover__overlay {
+  background-color: rgba(0, 0, 0, .5);
+}
+
 @media screen and (max-width: 1024px) {
     .cover__background {
       height: 562px;
@@ -34,3 +42,4 @@
     .cover__background {
       height: 216px;
     }
+  }
