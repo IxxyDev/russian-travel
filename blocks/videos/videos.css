@@ -5,8 +5,8 @@
 @import url(./__subtitle/videos__subtitle.css);
 @import url(./__title/videos__title.css);
 @import url(./__text/videos__text.css);
-@import url(./__link/_item/videos__link_item_kamchatka.css);
-@import url(./__link/_item/videos__link_item_observatory.css);
+@import url(./__link/videos__link_kamchatka.css);
+@import url(./__link/videos__link_observatory.css);
 
 .videos {
     display: grid;

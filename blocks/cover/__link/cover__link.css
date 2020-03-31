@@ -1,0 +1,41 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    max-width: 1184px;
+    text-decoration: none;
+    height: 594px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../images/baikal_by_train.png);
+    color: white;
+}
+
+.cover__link:hover  .cover__overlay {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+      height: 562px;
+    }
+  }
+    
+  @media screen and (max-width: 768px) {
+    .cover__background {
+      height: 500px;
+    }
+  }
+    
+  @media screen and (max-width: 425px) {
+    .cover__link {
+      height: 272px;
+    }
+  }
+    
+  @media screen and (max-width: 320px) {
+    .cover__link {
+      height: 216px;
+    }
+  }
